@@ -1,0 +1,128 @@
+  body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .navbar-custom {
+            background-color: #0066cc;
+            color: white;
+        }
+
+        .navbar-custom .navbar-nav .nav-link {
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-custom .navbar-nav .nav-link:hover {
+            color: #f2f2f2;
+        }
+
+        .navbar-custom .navbar-brand {
+            color: #f8d03c;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-custom .navbar-toggler {
+            border-color: #f8d03c;
+        }
+
+        /* Contact Information Section */
+        .contact-info {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h4 {
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info .phone {
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .contact-info .email {
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        /* Form Section */
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #ff5722;
+            border: none;
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #e64a19;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animation for Hover Effects */
+        .contact-info:hover {
+            transform: scale(1.03);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .form-control:focus {
+            border-color: #ff5722;
+            box-shadow: 0px 0px 5px rgba(255, 87, 34, 0.5);
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .contact-info {
+                padding: 20px;
+            }
+            .form-control {
+                font-size: 14px;
+            }
+        }

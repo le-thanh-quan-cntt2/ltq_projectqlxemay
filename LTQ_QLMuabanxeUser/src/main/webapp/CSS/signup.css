@@ -1,0 +1,113 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url("../images/nensigin.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        section {
+            position: relative;
+            max-width: 400px;
+            background-color: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(55px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .inputBox {
+            position: relative;
+            margin: 30px 0;
+            max-width: 310px;
+            border-bottom: 2px solid #fff;
+        }
+
+        .inputBox label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 1rem;
+            pointer-events: none;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .inputBox input {
+            width: 100%;
+            height: 60px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            padding: 0 35px 0 5px;
+            color: #fff;
+        }
+
+        .inputBox input:focus ~ label,
+        .inputBox input:valid ~ label {
+            top: -5px;
+        }
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus {
+            background-color: transparent !important;
+            -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+            -webkit-text-fill-color: #fff !important;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            border-radius: 40px;
+            background-color: rgba(255, 255, 255, 1);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.4s ease;
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .register-footer {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .register-footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .alert {
+            margin-top: 20px;
+        }
+        

@@ -1,0 +1,54 @@
+/* Định dạng phần container */
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Định dạng input */
+.form-control {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Định dạng nhãn */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Định dạng nút bấm */
+.btn {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
